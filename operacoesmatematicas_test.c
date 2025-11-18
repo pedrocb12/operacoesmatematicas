@@ -4,8 +4,7 @@
 #include "multiplicar.c"
 #include "divisao.c"
 
-int multiplicar(int a, int b);
-int dividir(int a, int b);
+
 
 int main() {
    
