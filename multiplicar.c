@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "operacoesmatematicas.h"
 
 int multiplicar(int a, int b) {
@@ -13,3 +14,12 @@ int multiplicar(int a, int b) {
 
     return resultado * sinal;
 }
+=======
+
+#include <stdio.h>
+
+int multiplicar(int a, int b) {
+    return a * b;
+}
+
+>>>>>>> e898ec5dc27894f9a4fffe4a3d243ef5c648a5e0
