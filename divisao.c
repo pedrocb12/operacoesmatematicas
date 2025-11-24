@@ -1,4 +1,4 @@
-#include "operacoesmatematicas.h"
+#include "operacoesmatematicas.c"
 #include <stdio.h>
 
 

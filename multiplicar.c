@@ -1,5 +1,5 @@
 
-#include "operacoesmatematicas.h"
+#include "operacoesmatematicas.c"
 
 int multiplicar(int a, int b) {
     int resultado = 0;
