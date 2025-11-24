@@ -14,12 +14,3 @@ int multiplicar(int a, int b) {
 
     return resultado * sinal;
 }
-
-
-#include <stdio.h>
-
-int multiplicar(int a, int b) {
-    return a * b;
-}
-
-

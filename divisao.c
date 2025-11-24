@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-
 
 int dividir(int dividendo, int divisor) {
     if (divisor == 0) {
@@ -10,7 +8,7 @@ int dividir(int dividendo, int divisor) {
 
     int sinal = 1;
     if (dividendo < 0) { dividendo = -dividendo; sinal = -sinal; }
-    if (divisor   < 0) { divisor   = -divisor;   sinal = -sinal; }
+    if (divisor < 0)   { divisor   = -divisor;   sinal = -sinal; }
 
     int quociente = 0;
     while (dividendo >= divisor) {
@@ -19,12 +17,5 @@ int dividir(int dividendo, int divisor) {
     }
 
     return quociente * sinal;
-
-int dividir(int a, int b) {
-    if (b == 0) {
-        printf("Erro: divisao por zero nao permitida.\n");
-        return 0;
-    }
-    return a / b;
-
 }
+
