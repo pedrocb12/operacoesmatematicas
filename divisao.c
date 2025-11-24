@@ -1,7 +1,7 @@
 #include "operacoesmatematicas.h"
 #include <stdio.h>
 
-<<<<<<< HEAD
+
 int dividir(int dividendo, int divisor) {
     if (divisor == 0) {
         printf("Erro: divisão por zero.\n");
@@ -19,12 +19,12 @@ int dividir(int dividendo, int divisor) {
     }
 
     return quociente * sinal;
-=======
+
 int dividir(int a, int b) {
     if (b == 0) {
         printf("Erro: divisao por zero nao permitida.\n");
         return 0;
     }
     return a / b;
->>>>>>> e898ec5dc27894f9a4fffe4a3d243ef5c648a5e0
+
 }
